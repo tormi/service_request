@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_status_icon
+    - taxonomy.vocabulary.service_status
+id: taxonomy_term.service_status.field_status_icon
+field_name: field_status_icon
+entity_type: taxonomy_term
+bundle: service_status
+label: status_icon
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

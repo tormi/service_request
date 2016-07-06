@@ -1,0 +1,20 @@
+uuid: 200620164315c34511f-0a7e-19417-acf1-4511f0a7e0bd9716cf122dab6061420062016
+langcode: en
+status: true
+dependencies:
+  module:
+    - color_field
+    - taxonomy
+id: taxonomy_term.field_status_hex
+field_name: field_status_hex
+entity_type: taxonomy_term
+type: color_field_type
+settings:
+  format: '#HEXHEX'
+module: color_field
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
