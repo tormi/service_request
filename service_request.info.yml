@@ -1,0 +1,12 @@
+name: Service Request Content Type
+description: Open311 Service Requests content type.
+package: Mark-a-Spot
+type: module
+core: 8.x
+
+dependencies:
+  - node
+  - path
+  - text
+  - geolocation
+  - color_field

@@ -1,0 +1,66 @@
+uuid: 1405201613934d613-f10e-19454-8d00-4d613f10e0bfee78d0038818dda6514052016
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.service_category.field_category_hex
+    - field.field.taxonomy_term.service_category.field_category_icon
+    - field.field.taxonomy_term.service_category.field_service_code
+    - taxonomy.vocabulary.service_category
+  module:
+    - color_field
+    - path
+    - text
+_core:
+  default_config_hash: CEMZkSJK8QTnh13zlAgT3HAIsRoUcJB_B9iKdta5-AM
+id: taxonomy_term.service_category.default
+targetEntityType: taxonomy_term
+bundle: service_category
+mode: default
+content:
+  description:
+    type: text_textarea
+    weight: 1
+    settings:
+      placeholder: ''
+      rows: 5
+    third_party_settings: {  }
+  field_category_hex:
+    type: color_field_widget_box
+    weight: 4
+    settings:
+      default_colors: "\n#AC725E,#D06B64,#F83A22,#FA573C,#FF7537,#FFAD46\n#42D692,#16A765,#7BD148,#B3DC6C,#FBE983\n#92E1C0,#9FE1E7,#9FC6E7,#4986E7,#9A9CFF\n#B99AFF,#C2C2C2,#CABDBF,#CCA6AC,#F691B2\n#CD74E6,#A47AE2"
+    third_party_settings: {  }
+  field_category_icon:
+    type: string_textfield
+    weight: 5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_service_code:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  field_test:
+    weight: 32
+    settings:
+      default_colors: "\n#AC725E,#D06B64,#F83A22,#FA573C,#FF7537,#FFAD46\n#42D692,#16A765,#7BD148,#B3DC6C,#FBE983\n#92E1C0,#9FE1E7,#9FC6E7,#4986E7,#9A9CFF\n#B99AFF,#C2C2C2,#CABDBF,#CCA6AC,#F691B2\n#CD74E6,#A47AE2"
+    third_party_settings: {  }
+    type: color_field_widget_box
+  name:
+    type: string_textfield
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

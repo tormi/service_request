@@ -1,0 +1,42 @@
+uuid: 140520161491f403d-647f-16802-b25f-f403d647f11a28a725f8f9b88d94014052016
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.service_category.field_category_hex
+    - field.field.taxonomy_term.service_category.field_category_icon
+    - field.field.taxonomy_term.service_category.field_service_code
+    - taxonomy.vocabulary.service_category
+  module:
+    - text
+_core:
+  default_config_hash: JzOCkzoe5fxpxuDvt1ROLhRS7JT-DNNDX4bJtu3vR1E
+id: taxonomy_term.service_category.default
+targetEntityType: taxonomy_term
+bundle: service_category
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+  field_service_code:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_test:
+    weight: 2
+    label: above
+    settings:
+      format: hex
+      opacity: '1'
+    third_party_settings: {  }
+    type: color_field_formatter_text
+hidden:
+  field_category_hex: true
+  field_category_icon: true

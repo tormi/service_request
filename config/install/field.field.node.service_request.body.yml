@@ -1,0 +1,24 @@
+uuid: c5756b0e-42a3-4715-9542-66708fbb20aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.service_request
+  module:
+    - text
+_core:
+  default_config_hash: egOcoztdsWQ7L8y5B1skcR3z3jEk9SBQMzV45AJCqHc
+id: node.service_request.body
+field_name: body
+entity_type: node
+bundle: service_request
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

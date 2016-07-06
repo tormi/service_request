@@ -1,0 +1,3 @@
+service_request.description:
+  title: Open311 Georeport Service Requests
+  route_name: config_service_request.description

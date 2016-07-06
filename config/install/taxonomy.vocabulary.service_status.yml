@@ -1,0 +1,11 @@
+uuid: 823816a87
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: aaxE6-6zSJTSCPErT8I5UVOKmY7Cc4PSRqo5CQX5bvI
+name: Status
+vid: service_status
+description: 'The current status of the service service_request. '
+hierarchy: 0
+weight: 0
