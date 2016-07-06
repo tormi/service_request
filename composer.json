@@ -1,5 +1,5 @@
 {
-  "name": "markaspot/markaspot_service_request",
+  "name": "markaspot/service_request",
   "description": "Service Requests for Mark-a-Spot Open 311 Server and mapping platform",
   "type": "drupal-module",
   "homepage": "https://github.com/markaspot/markaspot_service_requestgit",
