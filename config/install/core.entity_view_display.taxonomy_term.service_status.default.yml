@@ -1,0 +1,38 @@
+uuid: 22072016314a60191-6027-20164-9f80-6019160272ec40b1f80385071d34622072016
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.service_status.field_status_hex
+    - field.field.taxonomy_term.service_status.field_status_icon
+    - taxonomy.vocabulary.service_status
+  module:
+    - color_field
+    - text
+id: taxonomy_term.service_status.default
+targetEntityType: taxonomy_term
+bundle: service_status
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+  field_status_hex:
+    type: color_field_formatter_text
+    weight: 1
+    label: hidden
+    settings:
+      format: rgb
+      opacity: '1'
+    third_party_settings: {  }
+  field_status_icon:
+    type: string
+    weight: 2
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden: {  }

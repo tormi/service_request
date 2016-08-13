@@ -11,12 +11,11 @@ dependencies:
     - field.field.node.service_request.field_status
     - node.type.service_request
   module:
-    - geolocation
     - image
     - text
     - user
 _core:
-  default_config_hash: CZsOltd1RP1uYLb-PKkWnEQ2ExBqhBsS9TOf4By3zZ4
+  default_config_hash: WKSDeJl9rLdqr1rIhJBWGzcSWUMGkM5KX8kyaSSlAgc
 id: node.service_request.teaser
 targetEntityType: node
 bundle: service_request
@@ -24,7 +23,7 @@ mode: teaser
 content:
   body:
     type: text_trimmed
-    weight: 5
+    weight: 4
     label: hidden
     settings:
       trim_length: 140
@@ -36,22 +35,9 @@ content:
     settings:
       link: false
     third_party_settings: {  }
-  field_geolocation:
-    type: geolocation_map
-    weight: 3
-    label: visually_hidden
-    settings:
-      type: ROADMAP
-      zoom: '10'
-      height: 100px
-      width: 100px
-      info_text: ''
-      info_auto_display: '1'
-      title: ''
-    third_party_settings: {  }
   field_image:
     type: image
-    weight: 4
+    weight: 3
     label: visually_hidden
     settings:
       image_style: ''
@@ -68,4 +54,5 @@ content:
     weight: 0
     settings: {  }
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  field_geolocation: true

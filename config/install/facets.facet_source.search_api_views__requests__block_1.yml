@@ -1,0 +1,10 @@
+uuid: 26072016395382cc8-6c50-17778-8e57-82cc86c50e572764e5725b8d65daf26072016
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: tf3MR7jzy1cOiOM8BkJ6QUetKE3jfNBAy4Z1jGV00Ik
+id: search_api_views__requests__block_1
+name: 'search_api_views:requests:block_1'
+filter_key: null
+url_processor: query_string
