@@ -4,8 +4,6 @@ dependencies:
   config:
     - field.storage.taxonomy_term.field_service_code
     - taxonomy.vocabulary.service_category
-_core:
-  default_config_hash: PXj3tpYjBz34D99vNEzjae3ihhDnW-v2j_fgTc-zxeQ
 id: taxonomy_term.service_category.field_service_code
 field_name: field_service_code
 entity_type: taxonomy_term

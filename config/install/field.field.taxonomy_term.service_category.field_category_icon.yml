@@ -4,8 +4,6 @@ dependencies:
   config:
     - field.storage.taxonomy_term.field_category_icon
     - taxonomy.vocabulary.service_category
-_core:
-  default_config_hash: SmAApYL0Urc1mI22YTCYtwxiCkzcSyjbYkD6UcosGIM
 id: taxonomy_term.service_category.field_category_icon
 field_name: field_category_icon
 entity_type: taxonomy_term

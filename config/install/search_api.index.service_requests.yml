@@ -1,4 +1,3 @@
-uuid: d4ee3c3f-5c53-4925-9b23-9f7ffe3761c6
 langcode: en
 status: true
 dependencies:
@@ -12,8 +11,6 @@ dependencies:
     - taxonomy
     - search_api
     - node
-_core:
-  default_config_hash: ej-h-BZqnW6n44-jTgsjsfQL2pMuruVTSPvjxJR3JHM
 id: service_requests
 name: service_requests
 description: ''

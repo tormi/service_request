@@ -1,8 +1,5 @@
-uuid: d643ebewe
 langcode: en
 status: true
-_core:
-  default_config_hash: 1s0jN9P41vifw0b2nG9GLSLIO5U9Xt5VV7rrNOBRKMQ
 name: Category
 vid: service_category
 description: ''

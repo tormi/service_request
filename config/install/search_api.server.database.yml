@@ -1,11 +1,8 @@
-uuid: 04a930ed-ab81-4f85-8c40-d9272c1d3190
 langcode: de
 status: true
 dependencies:
   module:
     - search_api_db
-_core:
-  default_config_hash: qMo8aRsgi4k895XQTWqv1_tfXCpkYpWs7sTKwuR4UGQ
 id: database
 name: database
 description: ''

@@ -1,11 +1,8 @@
-uuid: 140520161efa850d2-7e21-17863-8a71-850d27e2165c773ca7102cb65c39914052016
 langcode: en
 status: true
 dependencies:
   module:
     - taxonomy
-_core:
-  default_config_hash: geec7y7Dd6B2zpB3i3urHp8C9-CRX0bwSa65KvW6C5U
 id: taxonomy_term.field_service_code
 field_name: field_service_code
 entity_type: taxonomy_term

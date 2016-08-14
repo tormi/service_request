@@ -1,12 +1,9 @@
-uuid: 1405201611758ec7f-b04c-18067-a60b-8ec7fb04c469318e60b8b5e4a107014052016
 langcode: en
 status: true
 dependencies:
   module:
     - color_field
     - taxonomy
-_core:
-  default_config_hash: nGP-c4ybc3aocglI4fZDsGw-j_vZBsY-HYae0avQMgQ
 id: taxonomy_term.field_category_hex
 field_name: field_category_hex
 entity_type: taxonomy_term

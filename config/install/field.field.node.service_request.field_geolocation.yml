@@ -6,8 +6,6 @@ dependencies:
     - node.type.service_request
   module:
     - geolocation
-_core:
-  default_config_hash: 1EoiW-u0Zv5jL-ATDU6veDTaoO4DKc1zqawmc8qeiLU
 id: node.service_request.field_geolocation
 field_name: field_geolocation
 entity_type: node

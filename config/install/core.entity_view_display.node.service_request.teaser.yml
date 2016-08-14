@@ -1,4 +1,3 @@
-uuid: 100620163d058823e-1fef-19247-aa02-8823e1fefdb2f6b2a0262a0363c3c10062016
 langcode: en
 status: true
 dependencies:
@@ -14,8 +13,6 @@ dependencies:
     - image
     - text
     - user
-_core:
-  default_config_hash: WKSDeJl9rLdqr1rIhJBWGzcSWUMGkM5KX8kyaSSlAgc
 id: node.service_request.teaser
 targetEntityType: node
 bundle: service_request

@@ -1,12 +1,9 @@
-uuid: 020520161b64ded2f-7bcc-17625-95c7-ded2f7bccc4d9ff55c77a4b9903cf02052016
 langcode: en
 status: true
 dependencies:
   module:
     - node
     - taxonomy
-_core:
-  default_config_hash: BxOqTorTjpAA0jDV1iKkoTrvXyisp7qNtT6Wg6o739Q
 id: node.field_status
 field_name: field_status
 entity_type: node

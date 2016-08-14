@@ -6,8 +6,6 @@ dependencies:
     - taxonomy.vocabulary.service_category
   module:
     - color_field
-_core:
-  default_config_hash: f9VbGb4N_96Qv-0D3kI7dOpariny79Iyr6HXd0PnQSI
 id: taxonomy_term.service_category.field_category_hex
 field_name: field_category_hex
 entity_type: taxonomy_term

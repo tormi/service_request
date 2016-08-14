@@ -1,11 +1,8 @@
-uuid: 1405201619424d1f3-e57d-17947-9be2-4d1f3e57d461b581be28bb51a34b914052016
 langcode: en
 status: true
 dependencies:
   module:
     - taxonomy
-_core:
-  default_config_hash: HL-V9KWUsFYEgS5wMoa0kHY2bEU8tpDAKZj-waqCdvs
 id: taxonomy_term.field_category_icon
 field_name: field_category_icon
 entity_type: taxonomy_term

@@ -1,4 +1,3 @@
-uuid: e83e8d36-dd31-4a65-a2c1-1a9dd8c51f3f
 langcode: en
 status: true
 dependencies:
@@ -13,8 +12,6 @@ dependencies:
     - geolocation
     - path
     - text
-_core:
-  default_config_hash: yLNJMViJFSIu0-TPpImA89e_kPEUnBrbPK1ArBtkncM
 id: node.service_request.default
 targetEntityType: node
 bundle: service_request

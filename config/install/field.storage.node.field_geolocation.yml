@@ -1,12 +1,9 @@
-uuid: 0205201613df09da9-31c5-19434-870c-09da931c5bbeae7070c6d8441108e02052016
 langcode: en
 status: true
 dependencies:
   module:
     - geolocation
     - node
-_core:
-  default_config_hash: oSoivzK9TUZUJRu6D-8xVLtqIeoOjVucFYyhn1VISdw
 id: node.field_geolocation
 field_name: field_geolocation
 entity_type: node

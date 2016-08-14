@@ -1,12 +1,9 @@
-uuid: a3da2ef6-8c63-43ec-bf00-f7aa3bfa5b5e
 langcode: en
 status: true
 dependencies:
   enforced:
     module:
       - service_request
-_core:
-  default_config_hash: 56pCGM3KA7XYwLiyHDetUcNwWuHxG7ywjooUC7eyJpA
 name: 'Service Request'
 type: service_request
 description: 'Open311 Service service_requests'
