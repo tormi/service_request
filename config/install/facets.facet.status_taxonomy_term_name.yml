@@ -8,7 +8,7 @@ name: 'Status » Taxonomy term » Name'
 url_alias: status_taxonomy_term_name
 weight: 0
 show_only_one_result: false
-field_identifier: name_1
+field_identifier: field_status
 query_type_name: null
 facet_source_id: 'search_api_views:requests:page_1'
 widget:

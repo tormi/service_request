@@ -86,7 +86,7 @@ field_settings:
     dependencies:
       config:
         - field.storage.node.field_geolocation
-  name:
+  field_category:
     label: 'Category » Taxonomy term » Name'
     datasource_id: 'entity:node'
     property_path: 'field_category:entity:name'
@@ -96,7 +96,7 @@ field_settings:
         - field.storage.node.field_category
       module:
         - taxonomy
-  name_1:
+  field_status:
     label: 'Status » Taxonomy term » Name'
     datasource_id: 'entity:node'
     property_path: 'field_status:entity:name'
