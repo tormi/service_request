@@ -1,6 +1,0 @@
-config_service_request.description:
-  path: 'markaspot/service_request'
-  defaults:
-    _controller: '\Drupal\service_request\Controller\ServiceRequestController::description'
-  requirements:
-    _permission: 'access content'

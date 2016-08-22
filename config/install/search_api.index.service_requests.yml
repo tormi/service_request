@@ -2,13 +2,12 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_category
-    - field.storage.node.body
-    - field.storage.node.field_status
     - field.storage.node.field_geolocation
+    - field.storage.node.body
+    - field.storage.node.field_category
+    - field.storage.node.field_status
     - search_api.server.database
   module:
-    - taxonomy
     - search_api
     - node
 id: service_requests
@@ -16,30 +15,6 @@ name: service_requests
 description: ''
 read_only: false
 field_settings:
-  field_category:
-    label: Category
-    datasource_id: 'entity:node'
-    property_path: field_category
-    type: integer
-    dependencies:
-      config:
-        - field.storage.node.field_category
-  body:
-    label: Body
-    datasource_id: 'entity:node'
-    property_path: body
-    type: text
-    dependencies:
-      config:
-        - field.storage.node.body
-  field_status:
-    label: Status
-    datasource_id: 'entity:node'
-    property_path: field_status
-    type: integer
-    dependencies:
-      config:
-        - field.storage.node.field_status
   title:
     label: Title
     datasource_id: 'entity:node'
@@ -86,26 +61,30 @@ field_settings:
     dependencies:
       config:
         - field.storage.node.field_geolocation
-  field_category:
-    label: 'Category » Taxonomy term » Name'
+  body:
+    label: Body
     datasource_id: 'entity:node'
-    property_path: 'field_category:entity:name'
-    type: string
+    property_path: body
+    type: text
+    dependencies:
+      config:
+        - field.storage.node.body
+  field_category:
+    label: Category
+    datasource_id: 'entity:node'
+    property_path: field_category
+    type: integer
     dependencies:
       config:
         - field.storage.node.field_category
-      module:
-        - taxonomy
   field_status:
-    label: 'Status » Taxonomy term » Name'
+    label: Status
     datasource_id: 'entity:node'
-    property_path: 'field_status:entity:name'
-    type: string
+    property_path: field_status
+    type: integer
     dependencies:
       config:
         - field.storage.node.field_status
-      module:
-        - taxonomy
 processor_settings:
   add_url:
     plugin_id: add_url
