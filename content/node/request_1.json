@@ -56,7 +56,7 @@
     ],
     "title": [
         {
-            "value": "14052016-1 Broken Streetlight",
+            "value": "14052016-1 Schmocken Streetlight",
             "lang": "en"
         }
     ],
@@ -111,6 +111,29 @@
                         "value": "1405201635a822988-1696-16963-8e81-229881696c2436f4e81587bb144ee14052016"
                     }
                 ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/service_request\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2016-09\/wildermuell-tonal-decay-realname_CCBY.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0809201613e5f3ccbd-167f-17097-8bc1-3ccbd167ff2c948cbc18fe1df1dbe08092016"
+                    }
+                ],
+                "uri": [
+                    {
+                        "value": "http:\/\/default\/sites\/default\/files\/2016-09\/wildermuell-tonal-decay-realname_CCBY.jpg"
+                    }
+                ],
+                "lang": "en"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/service_request\/field_status": [
