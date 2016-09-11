@@ -1,4 +1,3 @@
-uuid: 1405201613934d613-f10e-19454-8d00-4d613f10e0bfee78d0038818dda6514052016
 langcode: en
 status: true
 dependencies:
@@ -11,8 +10,6 @@ dependencies:
     - color_field
     - path
     - text
-_core:
-  default_config_hash: CEMZkSJK8QTnh13zlAgT3HAIsRoUcJB_B9iKdta5-AM
 id: taxonomy_term.service_category.default
 targetEntityType: taxonomy_term
 bundle: service_category

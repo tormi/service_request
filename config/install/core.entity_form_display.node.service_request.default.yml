@@ -7,9 +7,11 @@ dependencies:
     - field.field.node.service_request.field_geolocation
     - field.field.node.service_request.field_image
     - field.field.node.service_request.field_status
+    - image.style.thumbnail
     - node.type.service_request
   module:
     - geolocation
+    - image
     - path
     - text
 id: node.service_request.default
@@ -19,7 +21,7 @@ mode: default
 content:
   body:
     type: text_textarea_with_summary
-    weight: 9
+    weight: 5
     settings:
       rows: 9
       summary_rows: 3
@@ -27,18 +29,39 @@ content:
     third_party_settings: {  }
   created:
     type: datetime_timestamp
-    weight: 4
+    weight: 7
     settings: {  }
     third_party_settings: {  }
   field_category:
     type: options_select
-    weight: 5
+    weight: 1
     settings: {  }
     third_party_settings: {  }
   field_geolocation:
     type: geolocation_leaflet
     weight: 0
-    settings: {  }
+    settings:
+      populate_address_field: null
+      target_address_field: null
+      leaflet_settings:
+        zoom: 10
+        mapTypeControl: true
+        zoomControl: true
+        scrollwheel: true
+        disableDoubleClickZoom: false
+        draggable: true
+        height: 400px
+        width: 100%
+        info_auto_display: true
+        tileserver: 'https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png'
+        geocoder: Nominatim
+    third_party_settings: {  }
+  field_image:
+    type: image_image
+    weight: 6
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
     third_party_settings: {  }
   field_sadds:
     weight: 26
@@ -49,40 +72,39 @@ content:
     type: string_textfield
   field_status:
     type: options_buttons
-    weight: 3
+    weight: 2
     settings: {  }
     third_party_settings: {  }
   path:
     type: path
-    weight: 8
+    weight: 10
     settings: {  }
     third_party_settings: {  }
   promote:
     type: boolean_checkbox
-    weight: 6
+    weight: 8
     settings:
       display_label: true
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
-    weight: 7
+    weight: 9
     settings:
       display_label: true
     third_party_settings: {  }
   title:
     type: string_textfield
-    weight: 1
+    weight: 3
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 2
+    weight: 4
     settings:
       match_operator: CONTAINS
       size: 60
       placeholder: ''
     third_party_settings: {  }
-hidden:
-  field_image: true
+hidden: {  }

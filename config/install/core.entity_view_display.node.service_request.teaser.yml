@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.service_request.field_geolocation
     - field.field.node.service_request.field_image
     - field.field.node.service_request.field_status
+    - image.style.medium
     - node.type.service_request
   module:
     - image
@@ -37,7 +38,7 @@ content:
     weight: 3
     label: visually_hidden
     settings:
-      image_style: ''
+      image_style: medium
       image_link: ''
     third_party_settings: {  }
   field_status:

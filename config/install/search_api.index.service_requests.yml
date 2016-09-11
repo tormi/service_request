@@ -3,9 +3,10 @@ status: true
 dependencies:
   config:
     - field.storage.node.field_geolocation
-    - field.storage.node.body
     - field.storage.node.field_category
     - field.storage.node.field_status
+    - field.field.node.service_request.field_category
+    - field.field.node.service_request.field_status
     - search_api.server.database
   module:
     - search_api
@@ -61,14 +62,6 @@ field_settings:
     dependencies:
       config:
         - field.storage.node.field_geolocation
-  body:
-    label: Body
-    datasource_id: 'entity:node'
-    property_path: body
-    type: text
-    dependencies:
-      config:
-        - field.storage.node.body
   field_category:
     label: Category
     datasource_id: 'entity:node'
