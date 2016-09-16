@@ -6,6 +6,10 @@ dependencies:
     - taxonomy.vocabulary.service_status
   module:
     - color_field
+    - service_request
+  enforced:
+    module:
+      - service_request
 id: taxonomy_term.service_status.field_status_hex
 field_name: field_status_hex
 entity_type: taxonomy_term

@@ -3,6 +3,10 @@ status: true
 dependencies:
   module:
     - taxonomy
+    - service_request
+  enforced:
+    module:
+      - service_request
 id: taxonomy_term.field_status_icon
 field_name: field_status_icon
 entity_type: taxonomy_term

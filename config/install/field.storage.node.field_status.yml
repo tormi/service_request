@@ -4,6 +4,10 @@ dependencies:
   module:
     - node
     - taxonomy
+    - service_request
+  enforced:
+    module:
+      - service_request
 id: node.field_status
 field_name: field_status
 entity_type: node

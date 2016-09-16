@@ -4,6 +4,10 @@ dependencies:
   module:
     - color_field
     - taxonomy
+    - service_request
+  enforced:
+    module:
+      - service_request
 id: taxonomy_term.field_status_hex
 field_name: field_status_hex
 entity_type: taxonomy_term

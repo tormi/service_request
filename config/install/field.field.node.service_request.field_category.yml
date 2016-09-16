@@ -5,6 +5,11 @@ dependencies:
     - field.storage.node.field_category
     - node.type.service_request
     - taxonomy.vocabulary.service_category
+  module:
+    - service_request
+  enforced:
+    module:
+      - service_request
 id: node.service_request.field_category
 field_name: field_category
 entity_type: node

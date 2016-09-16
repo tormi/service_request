@@ -4,6 +4,11 @@ dependencies:
   config:
     - field.storage.taxonomy_term.field_category_icon
     - taxonomy.vocabulary.service_category
+  module:
+    - service_request
+  enforced:
+    module:
+      - service_request
 id: taxonomy_term.service_category.field_category_icon
 field_name: field_category_icon
 entity_type: taxonomy_term
