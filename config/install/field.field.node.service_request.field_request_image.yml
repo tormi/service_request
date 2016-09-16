@@ -2,12 +2,16 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_image
+    - field.storage.node.field_request_image
     - node.type.service_request
   module:
     - image
-id: node.service_request.field_image
-field_name: field_image
+    - service_request
+  enforced:
+    module:
+      - service_request
+id: node.field_request_image
+field_name: field_request_image
 entity_type: node
 bundle: service_request
 label: Image
