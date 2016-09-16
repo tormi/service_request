@@ -10,6 +10,10 @@ dependencies:
     - color_field
     - path
     - text
+    - service_request
+  enforced:
+    module:
+      - service_request
 id: taxonomy_term.service_category.default
 targetEntityType: taxonomy_term
 bundle: service_category
@@ -26,7 +30,7 @@ content:
     type: color_field_widget_box
     weight: 4
     settings:
-      default_colors: "\n#AC725E,#D06B64,#F83A22,#FA573C,#FF7537,#FFAD46\n#42D692,#16A765,#7BD148,#B3DC6C,#FBE983\n#92E1C0,#9FE1E7,#9FC6E7,#4986E7,#9A9CFF\n#B99AFF,#C2C2C2,#CABDBF,#CCA6AC,#F691B2\n#CD74E6,#A47AE2"
+      default_colors: '#FF0000,#8B0000,#FFA500,#008000,#006400,#0000FF,#00008B,#A020F0,#871F78,#5F9EA0,#ADD8E6,#D3D3D3,#808080,#000000,#F5F5DC,#FFFFFF'
     third_party_settings: {  }
   field_category_icon:
     type: string_textfield
