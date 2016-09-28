@@ -15,11 +15,11 @@ type: image
 settings:
   uri_scheme: public
   default_image:
-    uuid: null
-    alt: ''
+    uuid: 28092016578ed0b641-35fa-18405-a389-0b64135fa87e53ae389afc372908628092016
+    alt: 'No image uploaded'
     title: ''
-    width: null
-    height: null
+    width: 900
+    height: 450
   target_type: file
   display_field: false
   display_default: false
