@@ -8,7 +8,7 @@ dependencies:
     - field.field.node.service_request.field_geolocation
     - field.field.node.service_request.field_request_image
     - field.field.node.service_request.field_status
-    - image.style.mas_medium
+    - image.style.large
     - node.type.service_request
   enforced:
     module:
@@ -49,7 +49,7 @@ content:
     weight: 0
     label: visually_hidden
     settings:
-      image_style: mas_medium
+      image_style: large
       image_link: ''
     third_party_settings: {  }
   field_status:
