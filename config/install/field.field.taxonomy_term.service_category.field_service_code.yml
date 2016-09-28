@@ -4,8 +4,6 @@ dependencies:
   config:
     - field.storage.taxonomy_term.field_service_code
     - taxonomy.vocabulary.service_category
-  module:
-    - service_request
   enforced:
     module:
       - service_request

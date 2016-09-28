@@ -6,12 +6,11 @@ dependencies:
     - field.field.taxonomy_term.service_category.field_category_icon
     - field.field.taxonomy_term.service_category.field_service_code
     - taxonomy.vocabulary.service_category
-  module:
-    - text
-    - service_request
   enforced:
     module:
       - service_request
+  module:
+    - text
 id: taxonomy_term.service_category.default
 targetEntityType: taxonomy_term
 bundle: service_category

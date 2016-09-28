@@ -5,8 +5,6 @@ dependencies:
     - field.storage.node.field_status
     - node.type.service_request
     - taxonomy.vocabulary.service_status
-  module:
-    - service_request
   enforced:
     module:
       - service_request

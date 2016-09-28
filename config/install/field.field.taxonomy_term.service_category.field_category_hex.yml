@@ -4,12 +4,11 @@ dependencies:
   config:
     - field.storage.taxonomy_term.field_category_hex
     - taxonomy.vocabulary.service_category
-  module:
-    - color_field
-    - service_request
   enforced:
     module:
       - service_request
+  module:
+    - color_field
 id: taxonomy_term.service_category.field_category_hex
 field_name: field_category_hex
 entity_type: taxonomy_term
@@ -19,7 +18,8 @@ description: ''
 required: true
 translatable: false
 default_value:
-  - color: '#B3DC6C'
+  -
+    color: '#B3DC6C'
     opacity: '1'
 default_value_callback: ''
 settings:

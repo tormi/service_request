@@ -4,8 +4,6 @@ dependencies:
   config:
     - field.storage.taxonomy_term.field_status_icon
     - taxonomy.vocabulary.service_status
-  module:
-    - service_request
   enforced:
     module:
       - service_request

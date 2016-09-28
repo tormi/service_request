@@ -1,12 +1,11 @@
 langcode: en
 status: true
 dependencies:
-  module:
-    - taxonomy
-    - service_request
   enforced:
     module:
       - service_request
+  module:
+    - taxonomy
 id: taxonomy_term.field_category_icon
 field_name: field_category_icon
 entity_type: taxonomy_term

@@ -1,14 +1,13 @@
 langcode: en
 status: true
 dependencies:
+  enforced:
+    module:
+      - service_request
   module:
     - file
     - image
     - node
-    - service_request
-  enforced:
-    module:
-      - service_request
 id: node.field_request_image
 field_name: field_request_image
 entity_type: node

@@ -1,8 +1,6 @@
 langcode: en
 status: true
 dependencies:
-  module:
-    - service_request
   enforced:
     module:
       - service_request

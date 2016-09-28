@@ -4,13 +4,12 @@ dependencies:
   config:
     - field.storage.node.field_request_image
     - node.type.service_request
-  module:
-    - image
-    - service_request
   enforced:
     module:
       - service_request
-id: node.field_request_image
+  module:
+    - image
+id: node.service_request.field_request_image
 field_name: field_request_image
 entity_type: node
 bundle: service_request

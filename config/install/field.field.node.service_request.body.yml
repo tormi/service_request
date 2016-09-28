@@ -4,12 +4,11 @@ dependencies:
   config:
     - field.storage.node.body
     - node.type.service_request
-  module:
-    - text
-    - service_request
   enforced:
     module:
       - service_request
+  module:
+    - text
 id: node.service_request.body
 field_name: body
 entity_type: node

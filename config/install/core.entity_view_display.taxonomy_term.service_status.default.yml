@@ -5,13 +5,12 @@ dependencies:
     - field.field.taxonomy_term.service_status.field_status_hex
     - field.field.taxonomy_term.service_status.field_status_icon
     - taxonomy.vocabulary.service_status
-  module:
-    - color_field
-    - text
-    - service_request
   enforced:
     module:
       - service_request
+  module:
+    - color_field
+    - text
 id: taxonomy_term.service_status.default
 targetEntityType: taxonomy_term
 bundle: service_status

@@ -8,15 +8,14 @@ dependencies:
     - field.field.node.service_request.field_request_image
     - field.field.node.service_request.field_status
     - node.type.service_request
+  enforced:
+    module:
+      - service_request
   module:
     - geolocation
     - image
     - text
     - user
-    - service_request
-  enforced:
-    module:
-      - service_request
 id: node.service_request.default
 targetEntityType: node
 bundle: service_request
@@ -30,14 +29,14 @@ content:
     third_party_settings: {  }
   field_category:
     type: entity_reference_label
-    weight: 1
+    weight: 2
     label: visually_hidden
     settings:
       link: false
     third_party_settings: {  }
   field_geolocation:
     type: geolocation_leaflet_map
-    weight: 3
+    weight: 4
     label: visually_hidden
     settings:
       title: ''
@@ -63,9 +62,17 @@ content:
       image_style: ''
       image_link: file
     third_party_settings: {  }
+  field_request_image:
+    type: image
+    weight: 1
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
   field_status:
     type: entity_reference_label
-    weight: 2
+    weight: 3
     label: visually_hidden
     settings:
       link: false
@@ -74,4 +81,5 @@ content:
     weight: 0
     settings: {  }
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  shariff_field: true
