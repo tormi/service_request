@@ -60,18 +60,18 @@
     ],
     "field_category_hex": [
         {
-            "color": "#0000FF",
+            "color": "#A020F0",
             "opacity": "1"
         }
     ],
     "field_category_icon": [
         {
-            "value": "bulb"
+            "value": "fa-lightbulb-o"
         }
     ],
     "field_service_code": [
         {
-            "value": "0001"
+            "value": "0003"
         }
     ]
 }
