@@ -1,0 +1,14 @@
+uuid: 0810201689f1205f7c-72a7-16836-9775-05f7c72a771c4741775ccef01f20d08102016
+langcode: en
+status: true
+dependencies: {  }
+name: header_teaser_480x100_
+label: 'Header (teaser 480x100)'
+effects:
+  0810201689d598e27f-5b4e-19513-82f5-8e27f5b4e7c39b482f5c343f21e7a08102016:
+    uuid: 0810201689d598e27f-5b4e-19513-82f5-8e27f5b4e7c39b482f5c343f21e7a08102016
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 480
+      height: 100

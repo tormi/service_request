@@ -1,0 +1,14 @@
+uuid: 300920161483542c3a-4d73-17258-9b1f-42c3a4d73336a0f9b1f4da4e5630630092016
+langcode: en
+status: true
+dependencies: {  }
+name: header
+label: 'Header (teaser 960x200)'
+effects:
+  3009201614ddce1ca6-1016-18662-9e62-e1ca6101678e60bde623283502e0630092016:
+    uuid: 3009201614ddce1ca6-1016-18662-9e62-e1ca6101678e60bde623283502e0630092016
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 960
+      height: 200
