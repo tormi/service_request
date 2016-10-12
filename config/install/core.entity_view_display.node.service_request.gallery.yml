@@ -24,14 +24,6 @@ targetEntityType: node
 bundle: service_request
 mode: gallery
 content:
-  field_image:
-    type: image
-    weight: 4
-    label: visually_hidden
-    settings:
-      image_style: ''
-      image_link: file
-    third_party_settings: {  }
   field_request_image:
     type: image
     weight: 1

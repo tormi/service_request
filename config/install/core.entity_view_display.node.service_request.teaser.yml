@@ -36,20 +36,12 @@ content:
     settings:
       link: false
     third_party_settings: {  }
-  field_image:
-    type: image
-    weight: 3
-    label: visually_hidden
-    settings:
-      image_style: medium
-      image_link: ''
-    third_party_settings: {  }
   field_request_image:
     type: image
     weight: 0
     label: visually_hidden
     settings:
-      image_style: large
+      image_style: header
       image_link: ''
     third_party_settings: {  }
   field_status:
