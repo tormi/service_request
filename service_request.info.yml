@@ -10,6 +10,7 @@ dependencies:
   - text
   - geolocation
   - color_field
+  - field_permissions
   - image
   - file
   - taxonomy

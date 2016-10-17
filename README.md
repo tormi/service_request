@@ -9,3 +9,4 @@ For now this will only work with
 
 - color_field 8.x-2.x-dev
 - geolocation patched with "https://www.drupal.org/files/issues/geolocation-add-leaflet-2786447-1.patch"
+- field_permissions 8.x-1.x-dev
